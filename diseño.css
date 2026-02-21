@@ -124,40 +124,7 @@ button:hover, .btn-seccion:hover {
   margin: 0 auto 30px;
   line-height: 1.6;
 }
-/* ================================
-   CARRUSEL HERO
-================================ */
 
-.carousel {
-  position: relative;
-  width: 100%;
-  height: 250px;
-  overflow: hidden;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-.slide {
-  position: absolute;
-  opacity: 0;
-  transition: opacity 1s ease-in-out;
-  text-align: center;
-  width: 100%;
-  padding: 20px;
-}
-
-.slide h2 {
-  color: #00e0a8; /* verde tech */
-}
-
-.slide p {
-  color: #cfd8dc;
-}
-
-.slide.active {
-  opacity: 1;
-}
 /* ================================
    CARRUSEL HERO PRO
 ================================ */
@@ -182,7 +149,7 @@ button:hover, .btn-seccion:hover {
 }
 
 .slide h2 {
-  color: #00e0a8;
+  color: #cfd8dc;
 }
 
 .slide p {
@@ -199,9 +166,9 @@ button:hover, .btn-seccion:hover {
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
-  background: rgba(0, 0, 0, 0.4);
+  background: rgba(255, 255, 255, 0.2);
   border: none;
-  color: #00e0a8;
+  color: white;
   font-size: 28px;
   padding: 8px 14px;
   cursor: pointer;
@@ -210,8 +177,8 @@ button:hover, .btn-seccion:hover {
 }
 
 .arrow:hover {
-  background: #00e0a8;
-  color: #111;
+  background: white;
+  color: #003c8f;
 }
 
 .arrow.left {
@@ -234,14 +201,14 @@ button:hover, .btn-seccion:hover {
 .dot {
   height: 10px;
   width: 10px;
-  background: #888;
+  background: rgba(255, 255, 255, 0.5);
   border-radius: 50%;
   cursor: pointer;
   transition: 0.3s;
 }
 
 .dot.active {
-  background: #00e0a8;
+  background: white;
   transform: scale(1.2);
 }
 /* ================================
@@ -331,33 +298,6 @@ button:hover, .btn-seccion:hover {
 }
 
 
-/* ================================
-   CARRITO
-================================ */
-.carrito-icono {
-  position: relative;
-  display: inline-block;
-  margin-left: 20px;
-  cursor: pointer;
-  font-size: 24px;
-  color: var(--primary-dark);
-}
-
-.carrito-contador {
-  position: absolute;
-  top: -10px;
-  right: -10px;
-  background: linear-gradient(90deg, #0057d9, #00bcd4);
-  color: white;
-  border-radius: 50%;
-  width: 20px;
-  height: 20px;
-  font-size: 12px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  font-weight: bold;
-}
 
 
 /* ================================
