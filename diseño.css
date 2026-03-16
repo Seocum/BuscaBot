@@ -328,3 +328,125 @@ footer{
   background:#dcdcdc;
   transform:translateY(5px);
 }
+/* =========================
+   PAGINA 3
+========================= */
+
+.pagina3{
+padding:120px 40px;
+background:#efefef;
+position:relative;
+}
+
+.pagina3-container{
+max-width:1200px;
+margin:auto;
+display:flex;
+gap:60px;
+align-items:center;
+}
+
+.pagina3-texto{
+flex:1;
+font-size:20px;
+line-height:1.7;
+}
+
+.pagina3-texto h2{
+font-size:36px;
+margin-bottom:20px;
+}
+
+.pagina3-imagen img{
+width:260px;
+border-radius:25px;
+background:#f2a94c;
+padding:40px;
+}
+
+/* =========================
+   SOCIAL BAR
+========================= */
+
+.social-bar{
+position:fixed;
+left:10px;
+top:50%;
+transform:translateY(-50%);
+display:flex;
+flex-direction:column;
+gap:10px;
+opacity:0;
+pointer-events:none;
+transition:0.4s;
+}
+
+.social-bar img{
+width:40px;
+border-radius:6px;
+}
+
+/* cuando aparece */
+
+.social-visible{
+opacity:1;
+pointer-events:auto;
+}
+/* =========================
+   BOT POPUP
+========================= */
+
+.bot-popup{
+position:fixed;
+bottom:20px;
+right:20px;
+width:260px;
+background:#dfe3e7;
+border-radius:20px;
+padding:15px;
+box-shadow:0 10px 30px rgba(0,0,0,0.2);
+
+opacity:0;
+pointer-events:none;
+transition:0.4s;
+}
+
+.bot-popup p{
+font-size:15px;
+margin-top:10px;
+}
+
+.bot-header{
+display:flex;
+align-items:center;
+gap:10px;
+font-weight:600;
+}
+
+.bot-header img{
+width:35px;
+}
+
+.bot-header button{
+margin-left:auto;
+border:none;
+background:none;
+font-size:16px;
+cursor:pointer;
+}
+
+.bot-link{
+display:block;
+text-align:right;
+font-size:20px;
+text-decoration:none;
+color:black;
+margin-top:10px;
+}
+
+/* visible */
+
+.bot-visible{
+opacity:1;
+pointer-events:auto;
+}
